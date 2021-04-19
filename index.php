@@ -26,7 +26,7 @@ if ( have_posts() ) {
 	}
 
 	// Previous/next page navigation.
-	twenty_twenty_one_the_posts_navigation();
+	w32_the_posts_navigation();
 
 } else {
 

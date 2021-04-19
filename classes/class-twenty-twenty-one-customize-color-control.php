@@ -14,7 +14,7 @@
  *
  * @see WP_Customize_Control
  */
-class Twenty_Twenty_One_Customize_Color_Control extends WP_Customize_Color_Control {
+class w32_Customize_Color_Control extends WP_Customize_Color_Control {
 	/**
 	 * The control type.
 	 *

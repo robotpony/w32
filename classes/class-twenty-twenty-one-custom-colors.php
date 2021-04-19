@@ -10,7 +10,7 @@
 /**
  * This class is in charge of color customization via the Customizer.
  */
-class Twenty_Twenty_One_Custom_Colors {
+class w32_Custom_Colors {
 
 	/**
 	 * Instantiate the object.

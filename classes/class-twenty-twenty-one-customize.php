@@ -7,13 +7,13 @@
  * @since  w32 1.0
  */
 
-if ( ! class_exists( 'Twenty_Twenty_One_Customize' ) ) {
+if ( ! class_exists( 'w32_Customize' ) ) {
 	/**
 	 * Customizer Settings.
 	 *
 	 * @since  w32 1.0
 	 */
-	class Twenty_Twenty_One_Customize {
+	class w32_Customize {
 
 		/**
 		 * Constructor. Instantiate the object.
@@ -77,7 +77,7 @@ if ( ! class_exists( 'Twenty_Twenty_One_Customize' ) ) {
 				array(
 					'type'    => 'checkbox',
 					'section' => 'title_tagline',
-					'label'   => esc_html__( 'Display Site Title & Tagline', 'twentytwentyone' ),
+					'label'   => esc_html__( 'Display Site Title & Tagline', 'w32' ),
 				)
 			);
 
@@ -87,7 +87,7 @@ if ( ! class_exists( 'Twenty_Twenty_One_Customize' ) ) {
 			$wp_customize->add_section(
 				'excerpt_settings',
 				array(
-					'title'    => esc_html__( 'Excerpt Settings', 'twentytwentyone' ),
+					'title'    => esc_html__( 'Excerpt Settings', 'w32' ),
 					'priority' => 120,
 				)
 			);
@@ -108,10 +108,10 @@ if ( ! class_exists( 'Twenty_Twenty_One_Customize' ) ) {
 				array(
 					'type'    => 'radio',
 					'section' => 'excerpt_settings',
-					'label'   => esc_html__( 'On Archive Pages, posts show:', 'twentytwentyone' ),
+					'label'   => esc_html__( 'On Archive Pages, posts show:', 'w32' ),
 					'choices' => array(
-						'excerpt' => esc_html__( 'Summary', 'twentytwentyone' ),
-						'full'    => esc_html__( 'Full text', 'twentytwentyone' ),
+						'excerpt' => esc_html__( 'Summary', 'w32' ),
+						'full'    => esc_html__( 'Full text', 'w32' ),
 					),
 				)
 			);
@@ -121,7 +121,7 @@ if ( ! class_exists( 'Twenty_Twenty_One_Customize' ) ) {
 			include_once get_theme_file_path( 'classes/class-twenty-twenty-one-customize-color-control.php' ); // phpcs:ignore WPThemeReview.CoreFunctionality.FileInclude.FileIncludeFound
 
 			// Register the custom control.
-			$wp_customize->register_control_type( 'Twenty_Twenty_One_Customize_Color_Control' );
+			$wp_customize->register_control_type( 'w32_Customize_Color_Control' );
 
 			// Get the palette from theme-supports.
 			$palette = get_theme_support( 'editor-color-palette' );
@@ -136,11 +136,11 @@ if ( ! class_exists( 'Twenty_Twenty_One_Customize' ) ) {
 
 			// Add the control. Overrides the default background-color control.
 			$wp_customize->add_control(
-				new Twenty_Twenty_One_Customize_Color_Control(
+				new w32_Customize_Color_Control(
 					$wp_customize,
 					'background_color',
 					array(
-						'label'   => esc_html_x( 'Background color', 'Customizer control', 'twentytwentyone' ),
+						'label'   => esc_html_x( 'Background color', 'Customizer control', 'w32' ),
 						'section' => 'colors',
 						'palette' => $colors,
 					)

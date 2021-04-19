@@ -18,7 +18,7 @@ if ( have_posts() ) {
 			<?php
 			printf(
 				/* translators: %s: Search term. */
-				esc_html__( 'Results for "%s"', 'twentytwentyone' ),
+				esc_html__( 'Results for "%s"', 'w32' ),
 				'<span class="page-description search-term">' . esc_html( get_search_query() ) . '</span>'
 			);
 			?>
@@ -34,7 +34,7 @@ if ( have_posts() ) {
 					'We found %d result for your search.',
 					'We found %d results for your search.',
 					(int) $wp_query->found_posts,
-					'twentytwentyone'
+					'w32'
 				)
 			),
 			(int) $wp_query->found_posts
@@ -55,7 +55,7 @@ if ( have_posts() ) {
 	} // End the loop.
 
 	// Previous/next page navigation.
-	twenty_twenty_one_the_posts_navigation();
+	w32_the_posts_navigation();
 
 	// If no content, include the "No posts found" template.
 } else {
