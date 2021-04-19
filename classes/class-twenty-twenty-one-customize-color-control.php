@@ -4,13 +4,13 @@
  *
  * @package WordPress
  * @subpackage w32
- * @since Twenty Twenty-One 1.0
+ * @since  w32 1.0
  */
 
 /**
  * Customize Color Control class.
  *
- * @since Twenty Twenty-One 1.0
+ * @since  w32 1.0
  *
  * @see WP_Customize_Control
  */
@@ -18,7 +18,7 @@ class Twenty_Twenty_One_Customize_Color_Control extends WP_Customize_Color_Contr
 	/**
 	 * The control type.
 	 *
-	 * @since Twenty Twenty-One 1.0
+	 * @since  w32 1.0
 	 *
 	 * @var string
 	 */
@@ -29,7 +29,7 @@ class Twenty_Twenty_One_Customize_Color_Control extends WP_Customize_Color_Contr
 	 *
 	 * @access public
 	 *
-	 * @since Twenty Twenty-One 1.0
+	 * @since  w32 1.0
 	 *
 	 * @var array
 	 */
@@ -40,7 +40,7 @@ class Twenty_Twenty_One_Customize_Color_Control extends WP_Customize_Color_Contr
 	 *
 	 * @access public
 	 *
-	 * @since Twenty Twenty-One 1.0
+	 * @since  w32 1.0
 	 *
 	 * @return void
 	 */
@@ -62,7 +62,7 @@ class Twenty_Twenty_One_Customize_Color_Control extends WP_Customize_Color_Contr
 	 *
 	 * @access public
 	 *
-	 * @since Twenty Twenty-One 1.0
+	 * @since  w32 1.0
 	 *
 	 * @uses WP_Customize_Control::to_json()
 	 *

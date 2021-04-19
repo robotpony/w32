@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage w32
- * @since Twenty Twenty-One 1.0
+ * @since  w32 1.0
  */
 
 $wrapper_classes  = 'site-header';

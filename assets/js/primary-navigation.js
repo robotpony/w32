@@ -9,7 +9,7 @@
  *
  * @param {Element} el - The element.
  * @param {boolean} withListeners - Whether we want to add/remove listeners or not.
- * @since Twenty Twenty-One 1.0
+ * @since  w32 1.0
  */
 function twentytwentyoneToggleAriaExpanded( el, withListeners ) {
 	if ( 'true' !== el.getAttribute( 'aria-expanded' ) ) {

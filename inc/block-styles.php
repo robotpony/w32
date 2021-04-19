@@ -6,14 +6,14 @@
  *
  * @package WordPress
  * @subpackage w32
- * @since Twenty Twenty-One 1.0
+ * @since  w32 1.0
  */
 
 if ( function_exists( 'register_block_style' ) ) {
 	/**
 	 * Register block styles.
 	 *
-	 * @since Twenty Twenty-One 1.0
+	 * @since  w32 1.0
 	 *
 	 * @return void
 	 */

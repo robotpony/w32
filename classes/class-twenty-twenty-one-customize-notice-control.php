@@ -4,13 +4,13 @@
  *
  * @package WordPress
  * @subpackage w32
- * @since Twenty Twenty-One 1.0
+ * @since  w32 1.0
  */
 
 /**
  * Customize Notice Control class.
  *
- * @since Twenty Twenty-One 1.0
+ * @since  w32 1.0
  *
  * @see WP_Customize_Control
  */
@@ -18,7 +18,7 @@ class Twenty_Twenty_One_Customize_Notice_Control extends WP_Customize_Control {
 	/**
 	 * The control type.
 	 *
-	 * @since Twenty Twenty-One 1.0
+	 * @since  w32 1.0
 	 *
 	 * @var string
 	 */
@@ -31,7 +31,7 @@ class Twenty_Twenty_One_Customize_Notice_Control extends WP_Customize_Control {
 	 *
 	 * @access public
 	 *
-	 * @since Twenty Twenty-One 1.0
+	 * @since  w32 1.0
 	 *
 	 * @return void
 	 */
