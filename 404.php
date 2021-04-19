@@ -5,7 +5,7 @@
  * @link https://codex.wordpress.org/Creating_an_Error_404_Page
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_One
+ * @subpackage w32
  * @since Twenty Twenty-One 1.0
  */
 

@@ -7,7 +7,7 @@
  * relies on many newer functions and markup changes introduced in 5.3.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_One
+ * @subpackage w32
  * @since Twenty Twenty-One 1.0
  */
 

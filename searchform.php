@@ -8,7 +8,7 @@
  * @link https://developer.wordpress.org/reference/functions/get_search_form/
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_One
+ * @subpackage w32
  * @since Twenty Twenty-One 1.0
  */
 

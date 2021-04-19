@@ -3,7 +3,7 @@
  * Functions which enhance the theme by hooking into WordPress
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_One
+ * @subpackage w32
  * @since Twenty Twenty-One 1.0
  */
 

@@ -3,7 +3,7 @@
  * The template for displaying author info below posts.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_One
+ * @subpackage w32
  * @since Twenty Twenty-One 1.0
  */
 

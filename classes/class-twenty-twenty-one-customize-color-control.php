@@ -3,7 +3,7 @@
  * Customize API: WP_Customize_Color_Control class
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_One
+ * @subpackage w32
  * @since Twenty Twenty-One 1.0
  */
 

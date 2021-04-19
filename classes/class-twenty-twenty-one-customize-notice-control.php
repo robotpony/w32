@@ -3,7 +3,7 @@
  * Customize API: Twenty_Twenty_One_Customize_Notice_Control class
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_One
+ * @subpackage w32
  * @since Twenty Twenty-One 1.0
  */
 
